@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(163, 209, 176);
+  font-family: "Eczar", serif;
+}
+.app {
+  background: white;
+  max-width: 600px;
+  margin: 250px auto;
+  box-shadow: 20px 10px 10px rgb(104, 117, 108);
+  border-radius: 10px;
+  padding: 30px;
+}

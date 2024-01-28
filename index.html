@@ -3,21 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Vanilla weather app</title>
   </head>
   <body>
-    <h1>Hello</h1>
-    <footer>
-      Coded by
-      <a href="https://github.com/olawalkowiak" target="blank">Ola</a> ,code
-      hosted on
-      <a href="https://github.com/olawalkowiak/vanilla_vol_2" target="blank">
-        Github</a
-      >
-      ,website hosted on
-      <a href="https://vanilla-app-vol-2.netlify.app" target="blank">
-        Netflify</a
-      >
-    </footer>
+    <div class="app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Thursday 17:49 cloudy
+            <br />
+            Humidity: 66% , Wind: 3,3km/h
+          </p>
+        </div>
+        <div>☁ 12°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/olawalkowiak" target="blank">Ola</a> ,code
+        hosted on
+        <a href="https://github.com/olawalkowiak/vanilla_vol_2" target="blank">
+          Github</a
+        >
+        ,website hosted on
+        <a href="https://vanilla-app-vol-2.netlify.app" target="blank">
+          Netflify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
